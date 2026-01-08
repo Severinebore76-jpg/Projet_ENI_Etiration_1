@@ -1,0 +1,46 @@
+/* Page Préférences */
+
+.preferences-page {
+  padding: 60px 30px;
+}
+
+.preferences-page .page-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+
+/* Formulaire centré */
+.preferences-page form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Une préférence = une ligne */
+.preference-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0;
+}
+
+/* Texte à gauche */
+.preference-group p,
+.preference-group label {
+  font-weight: 600;
+}
+
+/* Radios empilées comme maquette */
+.preference-group .radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Actions */
+.form-actions {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 200px;
+}

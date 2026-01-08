@@ -1,0 +1,63 @@
+/* styles.css = style global des pages du site */
+/* Reset léger pour éviter les différences entre navigateurs */
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style général de la page */
+body {
+  margin: 0;
+  background: #fff;
+  color: #000;
+}
+
+/* HEADER PRINCIPAL */
+.site-header {
+  display: flex; /* met les blocs sur une ligne */
+  justify-content: space-between; /* espace gauche / droite */
+  align-items: center; /* alignement vertical */
+  padding: 20px 30px;
+}
+
+/* Logo + promo alignés horizontalement */
+.header-identity {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* espace entre logo et texte */
+}
+
+.logo {
+  width: 70px; /* taille proche de la maquette */
+}
+
+.promo {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* NAVIGATION */
+.header-nav {
+  display: flex;
+  gap: 20px; /* espace entre boutons */
+}
+
+/* Boutons de navigation */
+.nav-btn {
+  padding: 12px 22px;
+  border: 2px solid #000;
+  background: #fff;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  box-shadow: 3px 3px 0 #999; /* ombre visible (maquette) */
+}
+
+/* Bouton actif (page courante) */
+.nav-btn.active {
+  background: #f0f0f0;
+}
+
+
+

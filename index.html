@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <!-- Encodage standard pour éviter les problèmes de caractères -->
+    <meta charset="UTF-8" />
+
+    <!-- Web responsive  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Titre de l’onglet du navigateur -->
+    <title>Projet ENI - Accueil</title>
+
+    <!-- Lien vers la feuille de style -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <!-- HEADER = identité du site + navigation (logo, promo, menu) -->
+    <header class="site-header">
+      <!-- Bloc du header : logo + promo -->
+      <div class="header-identity">
+        <img src="./assets/images/logo.png" alt="Logo ENI" class="logo" />
+        <p class="promo">Promo EDWM2511FT</p>
+      </div>
+
+      <!-- Navigation principale -->
+      <!-- Les classes servent à styliser CE menu uniquement -->
+      <nav class="header-nav">
+        <a href="index.html" class="nav-btn active">Accueil</a>
+        <a href="preferences.html" class="nav-btn">Préférences</a>
+        <a href="carte.html" class="nav-btn">Cartes</a>
+        <a href="informations.html" class="nav-btn">Informations</a>
+      </nav>
+    </header>
+
+    <!-- MAIN = contenu principal de la page -->
+    <main class="content">
+      <!-- Zone "Type d’affichage" -->
+      <!-- Les radios sont là pour le JS -->
+      <div class="display-type">
+        <span>Type affichage</span>
+
+        <label>
+          <input type="radio" name="display" checked />
+          Liste
+        </label>
+
+        <label>
+          <input type="radio" name="display" />
+          Cartes
+        </label>
+      </div>
+      <!-- Titre principal visible dans la maquette -->
+      <h1>Liste des apprenants</h1>
+
+      <!-- Conteneur du tableau -->
+      <!-- Sert à encadrer le tableau ET à gérer le scroll -->
+      <div class="table-container">
+        <!-- Il agit autour du tableau (layout)-->
+        <table class="apprenants-table">
+          <!-- Il agit sur le contenu du tableau -->
+          <!-- En-tête du tableau -->
+          <thead>
+            <tr>
+              <th>Nom</th>
+              <th>Prénom</th>
+              <th>Ville</th>
+              <th></th>
+            </tr>
+          </thead>
+
+          <!-- Corps du tableau -->
+          <tbody id="apprenants-body">
+            <!-- Le JS insère les lignes du json ici -->
+          </tbody>
+        </table>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

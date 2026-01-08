@@ -1,0 +1,67 @@
+/* informations.css — styles spécifiques à la page Informations */
+/* PAGE INFORMATIONS */
+.informations-page {
+  padding: 40px;
+}
+
+/* Titre central */
+.page-title {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+/* Bloc infos générales */
+.infos-globales {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+/* 2 cadres côte à côte */
+.info-grid {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+/* Titres des cadres */
+.info-column {
+  width: 45%;
+}
+
+.info-column h2 {
+  margin-bottom: 8px;
+}
+
+/* Cadres Description / Liens */
+.info-box {
+  border: 2px solid #000;
+  padding: 20px;
+}
+/* Cadre Liens utiles avec scroll */
+.links-box {
+  max-height: 260px; /* hauteur maîtrisée */
+  overflow-y: auto; /* scroll vertical interne */
+}
+
+/* Liste des liens */
+.info-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.info-box li {
+  margin-bottom: 10px;
+}
+
+.info-box a {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* Bouton retour */
+.back-home {
+  text-align: center;
+  margin-top: 80px;
+}

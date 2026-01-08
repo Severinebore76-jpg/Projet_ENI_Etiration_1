@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projet ENI - Préférences</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="preferences.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="header-identity">
+        <img src="./assets/images/logo.png" alt="Logo ENI" class="logo" />
+        <p class="promo">Promo EDWM2511FT</p>
+      </div>
+      <nav class="header-nav">
+        <a href="index.html" class="nav-btn">Accueil</a>
+        <a href="preferences.html" class="nav-btn active">Préférences</a>
+        <a href="carte.html" class="nav-btn">Cartes</a>
+        <a href="informations.html" class="nav-btn">Informations</a>
+      </nav>
+    </header>
+
+    <!-- Contenu principal spécifique à la page -->
+    <main class="content preferences-page">
+      <!-- Titre principal de la page -->
+      <h1 class="page-title">Préférences du site</h1>
+
+      <!-- FORMULAIRE -->
+      <!-- Regroupe tous les choix utilisateur -->
+      <!-- Il servira plus tard de point d’entrée pour le JavaScript -->
+      <form>
+        <!-- Choix du thème -->
+        <div class="preference-group">
+          <label for="theme">Thème du site</label>
+
+          <!-- Liste déroulante : un seul choix possible -->
+          <select id="theme" name="theme">
+            <!-- "Clair" est sélectionné par défaut -->
+            <option value="clair" selected>Clair</option>
+            <option value="sombre">Sombre</option>
+          </select>
+        </div>
+
+        <!-- Format d’affichage -->
+        <div class="preference-group">
+          <p>Format d’affichage de la liste des apprenants</p>
+          <label>
+            <input type="radio" name="display" value="liste" checked />
+            Liste
+          </label>
+          <label>
+            <input type="radio" name="display" value="cartes" />
+            Cartes
+          </label>
+        </div>
+
+        <!-- ACTIONS DU FORMULAIRE (enregistrement géré par le js) -->
+        <div class="form-actions">
+          <button type="submit" class="nav-btn">Enregistrer</button>
+          <!-- Lien de navigation HTML vers la page d’accueil -->
+          <a href="index.html" class="nav-btn"> Retour à la page d’Accueil </a>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
