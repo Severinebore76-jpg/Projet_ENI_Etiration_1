@@ -6,7 +6,7 @@
       "prenom": "Luc",
       "ville": "Rennes",
       "avatar": "",
-      "anecdotes": "",
+      "anecdotes": "Passionné par l’algorithmique, il aime comprendre pourquoi un code fonctionne avant de l’écrire. Toujours partant pour optimiser une solution.",
       "coordonnees": {
         "latitude": "48.1113387",
         "longitude": "-1.6800198"
@@ -18,7 +18,7 @@
       "prenom": "Claire",
       "ville": "Nantes",
       "avatar": "",
-      "anecdotes": "",
+      "anecdotes": "Ancienne graphiste, elle s’intéresse particulièrement à l’UX/UI et au CSS. Elle apporte souvent un regard visuel aux projets de groupe.",
       "coordonnees": {
         "latitude": "47.218371",
         "longitude": "-1.553621"
@@ -30,7 +30,7 @@
       "prenom": "Julien",
       "ville": "Paris",
       "avatar": "",
-      "anecdotes": "",
+      "anecdotes": "Curieux et méthodique, il adore décortiquer le JavaScript et poser des questions très précises. Redoutable pour débusquer les bugs.",
       "coordonnees": {
         "latitude": "48.856614",
         "longitude": "2.3522219"
@@ -42,7 +42,7 @@
       "prenom": "Sophie",
       "ville": "Lyon",
       "avatar": "",
-      "anecdotes": "",
+      "anecdotes": "En reconversion professionnelle, elle progresse rapidement grâce à une grande rigueur. Elle aime structurer les projets avant de coder.",
       "coordonnees": {
         "latitude": "45.764043",
         "longitude": "4.835659"
@@ -54,7 +54,7 @@
       "prenom": "Antoine",
       "ville": "Marseille",
       "avatar": "",
-      "anecdotes": "",
+      "anecdotes": "Enthousiaste et autodidacte, il teste beaucoup par lui-même. Il apprend souvent en faisant… et en cassant, puis en réparant.",
       "coordonnees": {
         "latitude": "43.296482",
         "longitude": "5.36978"
@@ -66,7 +66,7 @@
       "prenom": "Camille",
       "ville": "Toulouse",
       "avatar": "",
-      "anecdotes": "",
+      "anecdotes": "Attentive aux bonnes pratiques, elle s’intéresse déjà à la qualité du code et à la lisibilité. Toujours volontaire pour relire le code des autres.",
       "coordonnees": {
         "latitude": "43.604652",
         "longitude": "1.444209"
@@ -78,7 +78,7 @@
       "prenom": "Nicolas",
       "ville": "Bordeaux",
       "avatar": "",
-      "anecdotes": "",
+      "anecdotes": "À l’aise à l’oral, il aime expliquer ses raisonnements au groupe. Il apprend vite quand il peut verbaliser ce qu’il fait.",
       "coordonnees": {
         "latitude": "44.837789",
         "longitude": "-0.57918"
@@ -90,7 +90,7 @@
       "prenom": "Émilie",
       "ville": "Lille",
       "avatar": "",
-      "anecdotes": "",
+      "anecdotes": "Très organisée, elle documente tout ce qu’elle apprend. Ses notes sont souvent partagées avec la promo pour aider les autres.",
       "coordonnees": {
         "latitude": "50.62925",
         "longitude": "3.057256"
@@ -102,7 +102,7 @@
       "prenom": "Thomas",
       "ville": "Strasbourg",
       "avatar": "",
-      "anecdotes": "",
+      "anecdotes": "Passionné par le back-end, il adore plonger dans les bases de données et les API. Il aime comprendre comment les choses fonctionnent sous le capot.",
       "coordonnees": {
         "latitude": "48.573405",
         "longitude": "7.752111"
@@ -114,7 +114,7 @@
       "prenom": "Laura",
       "ville": "Montpellier",
       "avatar": "",
-      "anecdotes": "",
+      "anecdotes": "Créative et persévérante, elle ne lâche pas tant qu’un exercice n’est pas compris. Elle apprécie particulièrement le JavaScript.",
       "coordonnees": {
         "latitude": "43.610769",
         "longitude": "3.876716"
@@ -126,7 +126,7 @@
       "prenom": "Maxime",
       "ville": "Reims",
       "avatar": "",
-      "anecdotes": "",
+      "anecdotes": "Discret mais efficace, il avance régulièrement sans faire de bruit. Ses solutions sont souvent simples et bien pensées.",
       "coordonnees": {
         "latitude": "49.258329",
         "longitude": "4.031696"
@@ -138,7 +138,7 @@
       "prenom": "Pauline",
       "ville": "Dijon",
       "avatar": "",
-      "anecdotes": "",
+      "anecdotes": "Sensible à l’accessibilité web, elle s’intéresse aux bonnes pratiques pour rendre les sites utilisables par tous.",
       "coordonnees": {
         "latitude": "47.322047",
         "longitude": "5.04148"
@@ -150,7 +150,7 @@
       "prenom": "Hugo",
       "ville": "Annecy",
       "avatar": "",
-      "anecdotes": "",
+      "anecdotes": "Très motivé, il aime expérimenter en dehors des cours. Il teste souvent de nouvelles idées sur ses projets personnels.",
       "coordonnees": {
         "latitude": "45.899247",
         "longitude": "6.129384"
@@ -162,7 +162,7 @@
       "prenom": "Manon",
       "ville": "La Rochelle",
       "avatar": "",
-      "anecdotes": "",
+      "anecdotes": "Apprécie le travail en équipe et la collaboration. Elle aime comprendre le fonctionnement global d’un projet plutôt que chaque détail isolé",
       "coordonnees": {
         "latitude": "46.160329",
         "longitude": "-1.151139"

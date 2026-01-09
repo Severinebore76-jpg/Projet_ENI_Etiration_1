@@ -3,13 +3,10 @@
   <head>
     <!-- Encodage standard pour éviter les problèmes de caractères -->
     <meta charset="UTF-8" />
-
     <!-- Web responsive  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <!-- Titre de l’onglet du navigateur -->
     <title>Projet ENI - Accueil</title>
-
     <!-- Lien vers la feuille de style -->
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="index.css" />
@@ -23,7 +20,6 @@
         <img src="./assets/images/logo.png" alt="Logo ENI" class="logo" />
         <p class="promo">Promo EDWM2511FT</p>
       </div>
-
       <!-- Navigation principale -->
       <!-- Les classes servent à styliser CE menu uniquement -->
       <nav class="header-nav">
@@ -33,27 +29,23 @@
         <a href="informations.html" class="nav-btn">Informations</a>
       </nav>
     </header>
-
     <!-- MAIN = contenu principal de la page -->
     <main class="content">
       <!-- Zone "Type d’affichage" -->
       <!-- Les radios sont là pour le JS -->
       <div class="display-type">
         <span>Type affichage</span>
-
         <label>
-          <input type="radio" name="display" checked />
+          <input type="radio" name="display" value="liste" checked />
           Liste
         </label>
-
         <label>
-          <input type="radio" name="display" />
+          <input type="radio" name="display" value="cartes" />
           Cartes
         </label>
       </div>
       <!-- Titre principal visible dans la maquette -->
       <h1>Liste des apprenants</h1>
-
       <!-- Conteneur du tableau -->
       <!-- Sert à encadrer le tableau ET à gérer le scroll -->
       <div class="table-container">
@@ -69,13 +61,14 @@
               <th></th>
             </tr>
           </thead>
-
           <!-- Corps du tableau -->
           <tbody id="apprenants-body">
             <!-- Le JS insère les lignes du json ici -->
           </tbody>
         </table>
       </div>
+      <!-- Le JS insère les cartes ici -->
+      <div id="apprenants-cards" class="cards-container"></div>
     </main>
     <script src="script.js"></script>
   </body>
